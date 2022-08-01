@@ -1,0 +1,145 @@
+$font-family1: monospace;
+$color1: darkgoldenrod;
+$color2: rgb(36, 36, 36);
+$color3: rgb(46, 46, 46);
+$color4: whitesmoke;
+$color5: #1b1e1f;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color2;
+}
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    background-color: $color5;
+    justify-content: center;
+    margin: 8px;
+    border-radius: 12px;
+
+    .titulo {
+        font-family: $font-family1;
+        color: $color1;
+        align-items: center;
+        font-size: 90px;
+        padding: 60px;
+    }
+
+}
+
+.galeria {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 400px 400px;
+    background-color: $color5;
+    padding: 10px;
+    grid-gap: 10px;
+
+    .item {
+        border: 2px solid black;
+        border-radius: 25px;
+        filter: sepia(100%);
+    }
+
+    .item:hover {
+        transform: scale(1.06);
+        transition: all 0.5s;
+        filter: sepia(0%);
+    }
+
+    .item1 {
+        background-image: url(../image/Screenshot_20220626-114037_Instagram.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .item2 {
+        background-image: url(../image/Screenshot_20220626-114043_Instagram.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .item3 {
+        background-image: url(../image/Screenshot_20220626-114114_Instagram.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .item4 {
+        background-image: url(../image/Screenshot_20220626-114123_Instagram.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .item5 {
+        background-image: url(../image/Screenshot_20220626-114128_Instagram.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .item6 {
+        background-image: url(../image/Screenshot_20220626-114139_Instagram.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .item7 {
+        background-image: url(../image/Screenshot_20220626-114143_Instagram.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .item8 {
+        background-image: url(../image/Screenshot_20220626-114148_Instagram.jpg);
+        background-size: cover;
+        background-position: center;
+
+
+    }
+}
+
+
+
+.footer {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: $color3;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+
+    justify-content: space-between;
+    border-top: 4px solid $color1;
+
+
+}
+
+.footer p {
+    margin-top: 15px;
+    color: $color4;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.footer i {
+    font-size: 25px;
+    letter-spacing: 15px;
+    color: $color1;
+    justify-content: center;
+    flex-flow: column;
+}

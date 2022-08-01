@@ -1,3 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: rgb(36, 36, 36);
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #1b1e1f;
+  justify-content: center;
+  margin: 8px;
+  border-radius: 12px;
+}
+.sec1 .titulo {
+  font-family: monospace;
+  color: darkgoldenrod;
+  align-items: center;
+  font-size: 90px;
+  padding: 60px;
+}
+
+.galeria {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 400px 400px;
+  background-color: #1b1e1f;
+  padding: 10px;
+  grid-gap: 10px;
+}
+.galeria .item {
+  border: 2px solid black;
+  border-radius: 25px;
+  filter: sepia(100%);
+}
+.galeria .item:hover {
+  transform: scale(1.06);
+  transition: all 0.5s;
+  filter: sepia(0%);
+}
+.galeria .item1 {
+  background-image: url(../image/Screenshot_20220626-114037_Instagram.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.galeria .item2 {
+  background-image: url(../image/Screenshot_20220626-114043_Instagram.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.galeria .item3 {
+  background-image: url(../image/Screenshot_20220626-114114_Instagram.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.galeria .item4 {
+  background-image: url(../image/Screenshot_20220626-114123_Instagram.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.galeria .item5 {
+  background-image: url(../image/Screenshot_20220626-114128_Instagram.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.galeria .item6 {
+  background-image: url(../image/Screenshot_20220626-114139_Instagram.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.galeria .item7 {
+  background-image: url(../image/Screenshot_20220626-114143_Instagram.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.galeria .item8 {
+  background-image: url(../image/Screenshot_20220626-114148_Instagram.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  background-color: rgb(46, 46, 46);
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  border-top: 4px solid darkgoldenrod;
+}
+
+.footer p {
+  margin-top: 15px;
+  color: whitesmoke;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.footer i {
+  font-size: 25px;
+  letter-spacing: 15px;
+  color: darkgoldenrod;
+  justify-content: center;
+  flex-flow: column;
+}
 
 /*# sourceMappingURL=clientes.css.map */
