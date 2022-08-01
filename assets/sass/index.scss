@@ -1,10 +1,101 @@
+$font-family1: monospace;
+$color1: darkgoldenrod;
+$color2: rgb(36, 36, 36);
+$color3:  rgb(46, 46, 46);
+$color4: whitesmoke; 
 
 
-*{
-    margin: 0;
+
+* {
     padding: 0;
+    margin: 0;
 }
 
-body{
-    background-color: aqua;
+html {
+    scroll-behavior: smooth;
+}
+.fondo{
+    background-color: $color3;
+}
+
+.imgpresnt{
+    background-image: url(../image/Sin-título-3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 170vh;
+    padding: 30px;
+
+    .navbar{
+        margin-top: 38px;
+        border: 2px solid;
+        border-radius: 10%;
+    }
+    .navbar-brand{
+        font-family: $font-family1;
+        font-size: 30px;
+        margin-left: 30px;
+        color: $color1 !important;
+    }
+    .nav-link{
+        font-size: 25px;
+        font-family: $font-family1;
+        text-decoration: none;
+        padding: 5px;
+        color:  $color1 !important;
+    }    
+}
+
+.carrusel{
+    background-color: black;
+    height: 75vh;
+    /* display: flex;
+    flex-direction: row; */
+
+    .carousel-item {
+        padding: 20px;
+        text-align: center;
+    
+    
+    }.carousel-inner img{
+        padding: 20px;
+        height: 70vh;
+        width: 60vh;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50px;
+        border: 2px solid $color1;
+    }
+}
+
+
+.footer{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: $color3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    p{
+        margin-top: 15px;
+        color: $color4;
+    }
+        i{
+            font-size: 25px;
+            letter-spacing: 25px;
+            color: $color1;
+            margin-top: 12px;
+        }
+}
+.boton{
+    height: 50px;
+    width: 50px;
+    color: $color1;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    font-size: 30px;        
 }
