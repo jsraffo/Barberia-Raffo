@@ -1,0 +1,60 @@
+$font-family1: monospace;
+$color1: darkgoldenrod;
+$color2: rgb(36, 36, 36);
+$color3:  rgb(46, 46, 46);
+$color4: whitesmoke; 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: unset
+}
+.row{
+    height: 1000px;
+}
+
+.card{
+    padding: 15px;
+    margin-top: 20px;
+    border: 2px solid $color1; 
+    align-items: center;  
+
+    card-title{
+        color: $color1 !important;
+    }
+
+    card-body a{
+        color: black;
+        padding: 20px;
+    }
+}
+
+.footer{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: $color3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+    footer p{
+        margin-top: 15px;
+        color: $color4;
+    
+    i{
+            font-size: 25px;
+            letter-spacing: 15px;
+            color: $color1;
+        }
+    }
+}
+
+
+
