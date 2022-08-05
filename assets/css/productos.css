@@ -46,4 +46,10 @@
   color: darkgoldenrod;
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+  .row {
+    height: 1400px;
+  }
+}
+
 /*# sourceMappingURL=productos.css.map */
