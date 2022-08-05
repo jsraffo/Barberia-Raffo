@@ -26,8 +26,11 @@ html {
     height: 170vh;
     padding: 30px;
 
+    .navbar-dark{
+        list-style: none !important;
+    }
     .navbar{
-        margin-top: 38px;
+        margin-top: 34.5px;
         border: 2px solid;
         border-radius: 10%;
     }
@@ -98,4 +101,31 @@ html {
     bottom: 80px;
     right: 50px;
     font-size: 30px;        
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .imgpresnt{
+     background-image: none;
+     background-color: $color4;
+     height: 45vh;
+}
+    .navbar-brand{
+        display: none !important;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .navbar{
+        height: 80px;
+    }
+    .carousel-inner img{
+        padding: 5px;
+        height: 25vh;
+        width: 18vh;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50px;
+        border: 2px solid $color1;
+        justify-content: space-between;
+        margin-left: -100px;
+    }    
 }
