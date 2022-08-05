@@ -112,4 +112,19 @@ body {
   flex-flow: column;
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .galeria .item {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 200px;
+    background-color: #1b1e1f;
+    padding: 10px;
+    grid-gap: 10px;
+  }
+}
+
 /*# sourceMappingURL=clientes.css.map */

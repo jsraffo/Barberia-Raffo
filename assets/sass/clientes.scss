@@ -143,3 +143,20 @@ body{
     justify-content: center;
     flex-flow: column;
 }
+
+
+
+@media (min-width: 576px) and (max-width: 768px){
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        .item{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-rows: 200px;
+        background-color: $color5;
+        padding: 10px;
+        grid-gap: 10px;
+    }
+}
+}
