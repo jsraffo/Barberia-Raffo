@@ -1,0 +1,84 @@
+$font-family1: monospace;
+$color1: darkgoldenrod;
+$color2: rgb(36, 36, 36);
+$color3:  rgb(46, 46, 46);
+$color4: whitesmoke; 
+
+
+*{
+    padding: 0;
+    margin: o;
+}
+
+.body{
+    background-color: #DCDCDC
+
+    header h1{
+        font-size: 50px;
+        font-family: $font-family1;
+        background-color:  $color3;
+        color: darkgoldenrod;
+    }    
+    header h2{
+        background-color: rgb(50, 50, 50);
+        }
+    
+
+    div{
+        background-color: rgb(65, 65, 65);
+
+        strong{ 
+            color: darkgoldenrod;
+        }
+    }
+    /* $mapa: (
+        20px : red
+        /* h2: green ); */
+    
+
+   /*  @each $titulo, $colour in $mapa {
+        .mapa-#{$titulo} {
+            color: none;
+            color: red;
+            background-color: aqua;
+        }
+        
+    } */
+  
+}
+ 
+.formularios form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 90px;
+    margin: 100px;
+    align-items: flex-start;
+}
+.footer{
+    p{
+        margin-top: 15px;
+        color: white;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+     i{
+        font-size: 25px;
+        letter-spacing: 15px;
+        color: darkgoldenrod;
+        justify-content: center;
+        flex-flow: column;
+    }
+}
+@media only screen and (max-width:412px){
+    .body header h1{
+        display: flex;
+        font-size: 20px;
+        align-items: flex-start;
+    }
+    .formularios form label{
+        float: left;
+    }
+}

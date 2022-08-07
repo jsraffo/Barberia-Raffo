@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"turnos.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/turnos.scss"],"names":[],"mappings":"AAOA;EACI;EACA;;;AAGJ;EACI;EAGI;EACA,8BAjBO;EAkBP,mCAfE;EAgBF;;AAEJ;EACI;;AAIJ;EACI;;AAEA;EACI;;AASJ;EACI;EACA;EACA;;;AAOZ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGA;EACI;EACA;EACA;EACA;;AAGH;EACG;EACA;EACA;EACA;EACA;;;AAGR;EACI;IACI;IACA;IACA;;EAEJ;IACI","file":"turnos.css"}
